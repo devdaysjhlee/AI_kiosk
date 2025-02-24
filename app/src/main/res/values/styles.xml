@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 이미지 버튼 -->
+    <style name="CustomImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <!-- 택스트버튼 -->
+    <style name="CustomButton">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/btn_square</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:textColor">#1C1C1C</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+
+
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- side Menu -->
+    <LinearLayout
+        android:id="@+id/sideMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="300dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <!-- side Menu > 이미지 -->
+        <LinearLayout
+            android:id="@+id/sideMenu_img"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/home"
+                style="@style/CustomImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon_home"
+                android:contentDescription="@null" />
+
+            <ImageView
+                android:id="@+id/specialty"
+                style="@style/CustomImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon_specialty"
+                android:contentDescription="@null" />
+
+            <ImageView
+                android:id="@+id/burger"
+                style="@style/CustomImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon_burger"
+                android:contentDescription="@null" />
+
+            <ImageView
+                android:id="@+id/side"
+                style="@style/CustomImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon_side"
+                android:contentDescription="@null" />
+
+            <ImageView
+                android:id="@+id/coffee"
+                style="@style/CustomImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon_coffee"
+                android:contentDescription="@null" />
+
+            <ImageView
+                android:id="@+id/dessert"
+                style="@style/CustomImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon_dessert"
+                android:contentDescription="@null" />
+
+            <ImageView
+                android:id="@+id/beverage"
+                style="@style/CustomImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon_beverage"
+                android:contentDescription="@null" />
+        </LinearLayout>
+
+        <!-- side Menu > 버튼 -->
+        <LinearLayout
+            android:id="@+id/sideMenu_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/sideMenu_홈"
+                style="@style/CustomButton"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/home" />
+
+            <Button
+                android:id="@+id/sideMenu_추천메뉴"
+                style="@style/CustomButton"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/speciality" />
+
+            <Button
+                android:id="@+id/sideMenu_버거"
+                style="@style/CustomButton"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="@string/buger" />
+
+            <Button
+                android:id="@+id/sideMenu_사이드"
+                style="@style/CustomButton"
+                android:layout_width="wrap_content"
+                android:text="@string/side" />
+
+            <Button
+                android:id="@+id/sideMenu_커피"
+                style="@style/CustomButton"
+                android:layout_width="wrap_content"
+                android:text="@string/coffee" />
+
+            <Button
+                android:id="@+id/sideMenu_디저트"
+                style="@style/CustomButton"
+                android:layout_width="wrap_content"
+                android:text="@string/dessert" />
+
+            <Button
+                android:id="@+id/sideMenu_음료"
+                style="@style/CustomButton"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="@string/beverage" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

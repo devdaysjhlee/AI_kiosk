@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="maclunch">맥런치</string>
+    <string name="divMenu">메뉴 알아보기</string>
+    <string name="happysnack">해피스낵</string>
+    <string name="dessertcoffee">디저트, 음료</string>
+    <string name="speciality">추천 메뉴</string>
+
+    <string name="home">홈</string>
+    <string name="buger">버거</string>
+    <string name="side">사이드</string>
+    <string name="coffee">커피</string>
+    <string name="dessert">디저트</string>
+    <string name="beverage">음료</string>
+</resources>
